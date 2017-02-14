@@ -1,8 +1,8 @@
 private double fractionLength = .8; 
 private int smallestBranch = 12; 
-private double branchAngle = .2;  
+private double branchAngle = .58;  
 double j =110;
-double n = 3*Math.PI/2;
+double n = 0;
 public void setup() 
 {   
 	size(640,480);    
@@ -16,7 +16,7 @@ public void draw()
 	//drawBranches(??,??,??,??);  //will add later 
 drawBranches(320,430, j , n) ;
 } 
-/*public void keyTyped()
+public void keyTyped()
 {
   if (key== 'j')
   {
@@ -24,7 +24,7 @@ drawBranches(320,430, j , n) ;
     redraw();
   }
 }
-*/
+
 public void drawBranches(int x,int y, double branchLength, double angle) 
 {   
 	//your code here   
